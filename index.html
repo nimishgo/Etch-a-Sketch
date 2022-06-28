@@ -9,8 +9,29 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Etch-a-Sketch</h2>
-    <button>create</button>
+    <h1>Etch-a-Sketch</h1>
+    <div class="slidecontainer">
+        <div class="sliders">
+            <!-- <label for="slider">0->16->32->64</label> -->
+            <input class="slider" type="range" min="0" max="64" step="16" list="tickmarks" value="0">
+            <datalist id="tickmarks">
+                <option value="16" label="16"></option>
+                <option value="32" label="32"></option>
+                <option value="64" label="64"></option>
+            </datalist>
+        </div>
+        <div>
+            <button class="reset">RESET</button>
+        </div>
+        <div>
+            <input class="colorPicker" type="color" value="#000000">
+        </div>
+        <!-- <button class="RGB">RGB</button> -->
+        <div>
+            <input type="checkbox" class="checkbox">
+            <label for="checkbox">RGB</label>
+        </div>
+    </div>      
     <div class="pad">
         
     </div>

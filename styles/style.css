@@ -2,6 +2,25 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.slidecontainer {
+    display: flex;
+    margin: 10px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pad {
@@ -12,6 +31,8 @@ body {
     margin: 0 auto;
     padding: 0;
     flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: aliceblue;
 }
 
 .minibox {
@@ -19,4 +40,9 @@ body {
     min-width: auto;
     min-height: auto;
     border: 1px solid black;
+}
+
+.slider , #tickmarks {
+    background-color: beige;
+    color: bisque;
 }

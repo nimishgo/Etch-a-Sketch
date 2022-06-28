@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+
+.pad {
+    display: flex;
+    width: 512px;
+    height: 512px;
+    border: 0px solid black;
+    margin: 0 auto;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.minibox {
+    display: inline-flex;
+    min-width: auto;
+    min-height: auto;
+    border: 1px solid black;
+}
